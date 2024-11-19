@@ -1,13 +1,10 @@
 .rolPrincipal{
-    width: 100%;
-    height: 100%;
     display:flex;
     justify-content: center;
-    padding: 2%;
 }
 
 .rolPrincipal>button{
-    font-size: 150%;
+    font-size: 25px;
     color: #59A6A2;
     border-radius: 34px;
     padding: 15px;
@@ -15,12 +12,15 @@
 }
 
 .saludo{
+    margin-top: 20px;
     width: 100%;
     display: flex;
+    font-size: 25px;
     height: 100%;
     justify-content: center;
 }
 
-.saludo > h1{
-    font-size: 25px;
+h2{
+    margin-left: 760px;
+    font-size: 20px;
 }

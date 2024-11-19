@@ -1,0 +1,89 @@
+/* Estilos generales para la barra de navegación */
+.navbar {
+    background-color: #f8f9fa; /* Fondo claro */
+    padding: 10px 20px; /* Espaciado interno */
+}
+
+/* Estilo para el logo o el nombre de la barra */
+.navbar-brand {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #007bff; /* Color de texto azul */
+}
+
+/* Cambio de color cuando se pasa el mouse sobre el logo */
+.navbar-brand:hover {
+    color: #0056b3;
+}
+
+/* Estilo para los enlaces de la barra de navegación */
+.navbar-nav .nav-item .nav-link {
+    color: #333; /* Color de texto negro */
+    font-size: 1rem;
+    padding: 10px 15px; /* Espaciado interno */
+}
+
+/* Cambio de color cuando se pasa el mouse sobre un enlace */
+.navbar-nav .nav-item .nav-link:hover {
+    color: #007bff; /* Color azul al pasar el mouse */
+    background-color: #f1f1f1; /* Fondo claro al pasar el mouse */
+}
+
+/* Estilo para los ítems activos */
+.navbar-nav .nav-item.active .nav-link {
+    color: #0056b3; /* Color azul oscuro cuando está activo */
+    font-weight: bold;
+}
+
+/* Estilo para el menú desplegable */
+.nav-item.dropdown .nav-link {
+    color: #333; /* Color de texto por defecto */
+}
+
+/* Cambiar color cuando se pasa el mouse sobre el ítem del dropdown */
+.nav-item.dropdown .nav-link:hover {
+    color: #007bff;
+}
+
+/* Estilo para el menú desplegable */
+.dropdown-menu {
+    background-color: #fff; /* Fondo blanco */
+    border-radius: 0.25rem; /* Bordes redondeados */
+    border: 1px solid #ddd; /* Borde sutil */
+}
+
+/* Estilo de los ítems del dropdown */
+.dropdown-item {
+    color: #333; /* Color de texto por defecto */
+    padding: 10px 15px;
+}
+
+/* Cambio de color al pasar el mouse sobre un ítem del dropdown */
+.dropdown-item:hover {
+    background-color: #f1f1f1;
+    color: #007bff;
+}
+
+/* Estilo para el ítem del divider */
+.dropdown-divider {
+    border-top: 1px solid #ddd;
+    margin: 5px 0;
+}
+
+/* Estilo para los enlaces deshabilitados */
+.nav-item .nav-link.disabled {
+    color: #ccc; /* Color gris para los enlaces deshabilitados */
+    pointer-events: none; /* Deshabilita la interacción */
+}
+
+/* Estilos para la barra de navegación en dispositivos pequeños */
+@media (max-width: 992px) {
+    .navbar-toggler {
+        border: none;
+        background-color: #007bff; /* Fondo azul para el botón de la hamburguesa */
+    }
+
+    .navbar-toggler-icon {
+        background-color: white; /* Color de la hamburguesa blanca */
+    }
+}
