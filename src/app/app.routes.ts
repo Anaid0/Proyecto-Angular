@@ -3,7 +3,7 @@ import { NgModule } from '@angular/core';
 import { LoginComponent} from './Personas/loginPersona/loginPersona.component';
 
 export const routes: Routes = [
-    {path: 'LoginPersona', component:LoginComponent}
+    {path: 'loginPersona', component:LoginComponent}
 ];
 
 @NgModule({
