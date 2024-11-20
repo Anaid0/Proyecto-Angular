@@ -16,5 +16,9 @@ export class AppComponent {
   loginPersona(){
   this.router.navigate(["loginPersona"]);
 }
+
+InicioComponent(){
+  this.router.navigate(["inicio"])
+}
 }
 
